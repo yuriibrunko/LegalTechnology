@@ -1,0 +1,26 @@
+footer {
+    margin-top: 50px;
+    height: 60px;
+    .left {
+        width: 55%;
+        float: left;
+        padding-left: 30px;
+        padding-right: 100px;
+        color: #aeaeae;
+        font-family: 'Open Sans', sans-serif;
+        a {
+            color: #39b0bf;
+        }
+        a:hover {
+            color: #df7c7c;
+        }
+    }
+    .right {
+        width: 30%;
+        float: left;
+        text-align: end;
+        padding-right: 50px;
+        color: #aeaeae;
+        font-family: 'Open Sans', sans-serif;
+    }
+}

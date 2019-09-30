@@ -1,0 +1,296 @@
+@media screen and (max-width: 1200px) {
+    .head {
+        header {
+            height: 45%;
+            .search {
+                transform: translate(500%, -120%);
+            }
+        }
+        .tel {
+            margin-top: 0%;
+        }
+    }
+    .services {
+        height: 1500px;
+        .boxes {
+            width: 70%;
+            margin: 0 auto;
+            display: flex;
+            justify-content: center;
+            .box {
+                width: 40%;
+            }
+            .box:hover {
+                width: 41%;
+                height: 315px;
+            }
+        }
+    }
+    footer {
+        @media (max-width:1000px) {
+            .left {
+                width: 70%;
+                @media (max-width:700px) {
+                    padding-right: 30px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1101px) {
+    .info {
+        .about {
+            .calling {
+                .box {
+                    @media (max-width: 938px) {
+                        height: 70px;
+                        em {
+                            transform: translate(-5px, 5px);
+                        }
+                    }
+                    p {
+                        margin-top: -34px;
+                        margin-left: 50px;
+                    }
+                }
+            }
+        }
+        .video {
+            margin-left: 0%;
+            @media (max-width:991px) {
+                iframe {
+                    width: 300px;
+                }
+                .request {
+                    width: 300px;
+                    height: 187px;
+                    @media (max-width: 937px) {
+                        height: 217px;
+                        p {
+                            padding-top: 30px;
+                            padding-bottom: 70px;
+                        }
+                    }
+                    @media (max-width: 902px) {
+                        height: 235px;
+                    }
+                }
+            }
+            @media (max-width: 816px) {
+                iframe {
+                    width: 270px;
+                }
+                .request {
+                    width: 270px;
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width:782px) {
+    .info {
+        height: 720px;
+        .video {
+            iframe {
+                height: 246px;
+                @media (max-width:760px) {
+                    height: 264px;
+                }
+                @media (max-width:747px) {
+                    width: 230px;
+                }
+            }
+            @media (max-width:747px) {
+                .request {
+                    width: 230px;
+                }
+            }
+            @media (max-width:691px) {
+                iframe {
+                    height: 230px
+                }
+                .request {
+                    height: 214px;
+                    @media (max-width:677px) {
+                        height: 231px;
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width:768px) {
+    .services {
+        height: 2470px;
+        .boxes {
+            width: 60%;
+            .box {
+                width: 80%;
+            }
+            .box:hover {
+                width: 83%;
+                height: 325px;
+            }
+        }
+    }
+}
+@media screen and (max-width:760px) {
+    .head {
+        .clien {
+            .more {
+                font-size: 80px;
+            }
+            h1 {
+                pre {
+                    font-size: 70px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:647px) {
+    .info {
+        height: 1400px;
+        .about {
+            width: 98%;
+            margin-left: 5px;
+            margin-right: 5px;
+            height: 45%;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .video {
+            width: 95%;
+            height: 45%;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            iframe {
+                width: 370px;
+                height: 225px;
+            }
+            .request {
+                margin-top: -10px;
+                width: 370px;
+                height: 225px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:542px) {
+    .head {
+        .clien {
+            .more {
+                font-size: 60px;
+            }
+            h1 {
+                pre {
+                    font-size: 50px;
+                }
+            }
+            p {
+                font-size: 20px;
+            }
+        }
+        .tel {
+            a {
+                font-size: 20px;
+            }
+        }
+    }
+}
+@media screen and (max-width:500px) {
+    .head {
+        header {
+            height: 65%;
+            .menu {
+                transform: translate(-120%, 345%);
+                .menu__icon {
+                    span {
+                        width: 50%;
+                    }
+                }
+            }
+            .search {
+                transform: translate(360%, 60%);
+                @media (max-width:480px) {
+                    transform: translate(275%, 60%);
+                }
+            }
+        }
+        .clien {
+            line-height: 50px;
+            height: 20%;
+        }
+    }
+}
+@media screen and (max-width: 479px){
+    .head {
+        .clien {
+            .more {
+                font-size: 45px;
+            }
+            h1 {
+                pre {
+                    font-size: 40px;
+                }
+            }
+        }
+    }
+    .info {
+        .about {
+            .calling {
+                display: flex;
+                justify-content: center;
+                flex-wrap: wrap;
+                margin-top: 0px;
+                .box {
+                    width: 90%;
+                    @media (max-width:441px) {
+                        height: 92px;
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width:442px) {
+    .services {
+        height: 2550px;
+        .boxes {
+            width: 85%;
+            .box {
+                height: 315px;
+            }
+            .box:hover {
+                width: 81%;
+                height: 330px;
+            }
+        }
+    }
+}
+@media screen and (max-width:421px) {
+    .info {
+        .about {
+            height: 50%;
+        }
+    }
+}
+@media screen and (max-width: 380px) {
+    .head {
+        .clien {
+            h1 {
+                pre {
+                    font-size: 35px;
+                }
+            }
+            .more {
+                font-size: 35px;
+            }
+        }
+    }
+}

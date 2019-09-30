@@ -1,0 +1,73 @@
+@media screen and (max-width: 1331px) {
+    .head {
+        header {
+            .menu {
+                transform: translate(0%, 75%);
+                height: 50px;
+                .menu__icon {
+                    span {
+                        display: block;
+                        position: absolute;
+                        height: 20px;
+                        width: 25%;
+                        background: #a9e382;
+                        border-radius: 9px;
+                        opacity: 1;
+                        left: 0;
+                        transform: rotate(0deg);
+                        transition: .25s ease-in-out;
+                    }
+                    span:nth-child(1) {
+                        left: 33px;
+                        top: -7px;
+                    }
+                    span:nth-child(2) {
+                        left: 33px;
+                        top: 15px;
+                    }
+                    span:nth-child(3) {
+                        left: 33px;
+                        top: 37px;
+                    }
+                    span:nth-child(4) {
+                        left: 33px;
+                        top: 59px; 
+                    }
+                }
+                .menu__links {
+                    display: none;
+                }
+            }
+            .menu_state_open {
+                .menu__links {
+                   display: flex;
+                   margin-left: 50%;
+                   width: 255px;
+                   height: 300px;
+                   flex-wrap: wrap;
+                   justify-content: center;
+                   font-size: 30px;
+                   font-weight: bold;
+               }
+            }
+        }
+    }
+}
+@media screen and (max-width:980px) {
+    .head {
+        header {
+            .menu {
+                transform: translate(-50%, 280%);
+            }
+            .menu_state_open {
+                .menu__links {
+                   margin-left: 90%;
+                   margin-top: -33%;
+                   @media screen and (max-width:372px) {
+                        margin-left: 60%;
+                   }
+               }
+            }
+        }
+    }
+}

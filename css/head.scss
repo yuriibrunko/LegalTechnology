@@ -1,0 +1,159 @@
+.head { 
+    height: 700px;
+    width: 100%;
+    background-image: url(../img/Layer6.png);
+    background-position: center;
+    header {
+        height: 30%;
+        .logo {
+            .logoImg {
+                float: left;
+                height: 50px;
+                width: 50px;
+                .square {
+                    width: 22px;
+                    height: 22px;
+                    border-radius: 4px;
+                    background: #dce775;
+                    .squarchik {
+                        height: 11px;
+                        width: 11px;
+                        border-radius: 3px;
+                        background: #26c6da;
+                        transform: translate(6px, 4px);
+                    }
+                }
+                .square:first-child {
+                    transform: translate(35px, 37px);
+                }
+                .square:nth-child(2) {
+                    transform: translate(60px, 25px);
+                }
+                .square:nth-child(3) {
+                    transform: translate(40px, 21px);
+                }
+                .square:last-child {
+                    transform: translate(64px, 11px);
+                }
+            }
+            .logoTitle {
+                float: left;
+                height: 70px;
+                width: 23%;
+                margin-top: 30px;
+                font-size: 26px;
+                font-family: 'Noto Sans JP', sans-serif;
+                text-transform: uppercase;
+                color: #ffffff;
+                padding-left: 50px;
+            }
+        }
+        .menu {
+            height: 150px;
+            width: 55%;
+            float: left;
+            @media (max-width: 1331px) {
+                width: 30%;
+            }
+            .menu__links {
+                width: 100%;
+                margin-top: 37px;
+                .menu__links-item {
+                    text-transform: uppercase;
+                    margin-left: 20px;
+                    font-family: 'Open Sans', sans-serif;
+                    color: #ffffff;
+                    text-decoration: none;
+                }
+                .menu__links-item:hover {
+                    color: #df7c7c;
+                }
+            }
+        }
+        .search {
+            width: 5%;
+            height: 30px;
+            float: left;
+            .lupa:before, .lupa:after {
+                content:''; 
+                height:13px; 
+                display:block; 
+                position: relative;; 
+                top:40px; 
+                left:0; 
+                margin-left: 30px;
+            }
+            .lupa:before {
+                width:13px; 
+                border:2px #ffffff solid; 
+                border-radius:100%;
+                -webkit-border-radius:100%;
+                -moz-border-radius:100%;
+            }
+            .lupa:after {
+                width:3px;  
+                background:#ffffff; 
+                transform:rotate(-45deg);
+                -webkit-transform:rotate(-45deg);
+                -moz-transform:rotate(-45deg);
+                -o-transform:rotate(-45deg);
+                -ms-transform:rotate(-45deg); 
+                top:35px; 
+                left:17px;
+            }
+        }
+    }
+    .clien {
+        margin-left: 3%;
+        width: 60%;
+        height: 40%;
+        color: #ffffff;
+        line-height: 90px;
+        pre{
+            font-family: 'Open Sans', sans-serif;
+            font-size: 100px;
+            text-transform: uppercase;
+        }
+        .more {
+            font-size: 120px;
+            text-transform: uppercase;
+            font-weight: 400;
+            font-style: italic;
+        }
+        p {
+            font-size: 25px;
+            font-family: 'Open Sans', sans-serif;
+        }
+    }
+    .tel {
+        margin-left: 3%;
+        margin-top: 7%;
+        height: 18%;
+        a {
+            text-decoration: none;
+            color: #ffffff;
+            font-size: 30px;
+            font-family: 'Open Sans', sans-serif;
+        }
+        a:hover {
+            color: #df7c7c;
+            font-size: 35px;
+        }
+        .line {
+            width: 60%;
+            margin-top: 1%;
+            height: 3px;
+            border: 0.5px solid #ffffff;
+            background: #ffffff;
+        }
+    }
+    
+}
+.tape {
+    height: 5px;
+    width: 100%;
+    border: 5px solid #26c6da;
+    background: #26c6da;
+}
+
+@import 'burgerMenu';
